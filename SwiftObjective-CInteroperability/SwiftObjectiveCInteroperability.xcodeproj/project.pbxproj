@@ -14,10 +14,11 @@
 		3A2CB72921E77A180095FCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2CB72721E77A180095FCF2 /* LaunchScreen.storyboard */; };
 		3A2CB72C21E77A180095FCF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB72B21E77A180095FCF2 /* main.m */; };
 		3A2CB73421E77CCF0095FCF2 /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB73321E77CCF0095FCF2 /* SwiftTest.swift */; };
+		3A2CB73721E78E080095FCF2 /* ObjectiveCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB73621E78E080095FCF2 /* ObjectiveCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A2CB71921E77A0B0095FCF2 /* SwiftObjective-CInteroperability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftObjective-CInteroperability.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2CB71921E77A0B0095FCF2 /* SwiftObjectiveCInteroperability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftObjectiveCInteroperability.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2CB71C21E77A0C0095FCF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A2CB71D21E77A0C0095FCF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3A2CB71F21E77A0C0095FCF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -29,6 +30,8 @@
 		3A2CB72B21E77A180095FCF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A2CB73221E77CCF0095FCF2 /* SwiftObjective-CInteroperability-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftObjective-CInteroperability-Bridging-Header.h"; sourceTree = "<group>"; };
 		3A2CB73321E77CCF0095FCF2 /* SwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTest.swift; sourceTree = "<group>"; };
+		3A2CB73521E78E080095FCF2 /* ObjectiveCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCTest.h; sourceTree = "<group>"; };
+		3A2CB73621E78E080095FCF2 /* ObjectiveCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +56,7 @@
 		3A2CB71A21E77A0B0095FCF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A2CB71921E77A0B0095FCF2 /* SwiftObjective-CInteroperability.app */,
+				3A2CB71921E77A0B0095FCF2 /* SwiftObjectiveCInteroperability.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +75,8 @@
 				3A2CB72B21E77A180095FCF2 /* main.m */,
 				3A2CB73321E77CCF0095FCF2 /* SwiftTest.swift */,
 				3A2CB73221E77CCF0095FCF2 /* SwiftObjective-CInteroperability-Bridging-Header.h */,
+				3A2CB73521E78E080095FCF2 /* ObjectiveCTest.h */,
+				3A2CB73621E78E080095FCF2 /* ObjectiveCTest.m */,
 			);
 			path = "SwiftObjective-CInteroperability";
 			sourceTree = "<group>";
@@ -79,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A2CB71821E77A0B0095FCF2 /* SwiftObjective-CInteroperability */ = {
+		3A2CB71821E77A0B0095FCF2 /* SwiftObjectiveCInteroperability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A2CB72F21E77A180095FCF2 /* Build configuration list for PBXNativeTarget "SwiftObjective-CInteroperability" */;
+			buildConfigurationList = 3A2CB72F21E77A180095FCF2 /* Build configuration list for PBXNativeTarget "SwiftObjectiveCInteroperability" */;
 			buildPhases = (
 				3A2CB71521E77A0B0095FCF2 /* Sources */,
 				3A2CB71621E77A0B0095FCF2 /* Frameworks */,
@@ -91,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftObjective-CInteroperability";
+			name = SwiftObjectiveCInteroperability;
 			productName = "SwiftObjective-CInteroperability";
-			productReference = 3A2CB71921E77A0B0095FCF2 /* SwiftObjective-CInteroperability.app */;
+			productReference = 3A2CB71921E77A0B0095FCF2 /* SwiftObjectiveCInteroperability.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A2CB71421E77A0B0095FCF2 /* Build configuration list for PBXProject "SwiftObjective-CInteroperability" */;
+			buildConfigurationList = 3A2CB71421E77A0B0095FCF2 /* Build configuration list for PBXProject "SwiftObjectiveCInteroperability" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A2CB71821E77A0B0095FCF2 /* SwiftObjective-CInteroperability */,
+				3A2CB71821E77A0B0095FCF2 /* SwiftObjectiveCInteroperability */,
 			);
 		};
 /* End PBXProject section */
@@ -151,6 +156,7 @@
 				3A2CB72C21E77A180095FCF2 /* main.m in Sources */,
 				3A2CB71E21E77A0C0095FCF2 /* AppDelegate.m in Sources */,
 				3A2CB73421E77CCF0095FCF2 /* SwiftTest.swift in Sources */,
+				3A2CB73721E78E080095FCF2 /* ObjectiveCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "SwiftObjective-CInteroperability/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,6 +321,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "SwiftObjective-CInteroperability/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A2CB71421E77A0B0095FCF2 /* Build configuration list for PBXProject "SwiftObjective-CInteroperability" */ = {
+		3A2CB71421E77A0B0095FCF2 /* Build configuration list for PBXProject "SwiftObjectiveCInteroperability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A2CB72D21E77A180095FCF2 /* Debug */,
@@ -339,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A2CB72F21E77A180095FCF2 /* Build configuration list for PBXNativeTarget "SwiftObjective-CInteroperability" */ = {
+		3A2CB72F21E77A180095FCF2 /* Build configuration list for PBXNativeTarget "SwiftObjectiveCInteroperability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A2CB73021E77A180095FCF2 /* Debug */,

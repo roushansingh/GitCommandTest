@@ -10,4 +10,5 @@ import UIKit
 
 class SwiftTest: NSObject {
 
+    var test : ObjectiveCTest = ObjectiveCTest()
 }

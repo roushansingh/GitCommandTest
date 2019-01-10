@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwiftObjectiveCInteroperability-Swift.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    SwiftTest *test;
+}
 
 
 @end
